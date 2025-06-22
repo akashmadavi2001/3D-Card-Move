@@ -7,7 +7,6 @@ card.addEventListener('mousemove', (e) => {
 
     let rotateX = (y / rect.width) * -30;
     let rotateY = (x / rect.height) * 30;
-
     card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 
     let bgX = (x / rect.width) * 50 + 50;
